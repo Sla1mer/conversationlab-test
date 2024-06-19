@@ -1,0 +1,159 @@
+HELP.md
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build.gradle.kts
+!**/src/test/**/build.gradle.kts
+
+# Ignore Gradle GUI config
+.gradle/gradle.properties
+
+# Spring Boot
+.springBeans/
+
+# Kotlin
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+*.class
+
+# Intellij IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# BlueJ
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Project Files #
+*.project
+*.classpath
+*.settings/
+*.factorypath
+
+# Tool-specific #
+# mvn
+target/
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# gradle
+.gradle/
+build/
+out/
+
+# eclipse
+.classpath
+.project
+.settings/
+bin/
+tmp/
+
+# idea
+.idea
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+
+# sonar
+.sonar/
+
+# cloud9
+.c9/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# JDeveloper
+*.jws
+*.jpr
+
+# Maven
+target/
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# VS Code
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+.idea/
+.idea_modules/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Java
+*.class
+*.war
+*.ear
+*.jar
+
+# Generated files
+hs_err_pid*
+replay_pid*.log
