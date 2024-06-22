@@ -1,10 +1,5 @@
-# Use the official image as a parent image
-FROM openjdk:17-jdk-slim
-
-# Set the working directory in the container
+FROM gradle:jdk17
 WORKDIR /app
-
-# Copy the executable jar file into the container
 COPY . /app
 
 CMD ["gradle", "bootRun"]
