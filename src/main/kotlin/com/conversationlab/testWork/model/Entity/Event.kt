@@ -8,5 +8,5 @@ import java.time.LocalDateTime
 data class Event(
     @Id val id: String? = null,
     val text: String,
-    val date: LocalDateTime
+    val date: LocalDateTime?
 )
